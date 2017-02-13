@@ -13,6 +13,7 @@ public class DiscoveryService
 		
 		
 		// comment for git changes
+		// new changes
 		System.setProperty("spring.config.name", "registration-server");
 		SpringApplication.run( DiscoveryService.class, args);
 		
