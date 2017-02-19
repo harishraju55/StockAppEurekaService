@@ -10,14 +10,9 @@ public class DiscoveryService
 {
 	public static void main(String[] args) 
 	{
-		
-		
-		// comment for git changes
-		// new changes
-		//dsfdsffgdsfgsd
 		System.setProperty("spring.config.name", "registration-server");
+		System.out.println("inside Disco-service");
 		SpringApplication.run( DiscoveryService.class, args);
-		
 	}
 
 }
