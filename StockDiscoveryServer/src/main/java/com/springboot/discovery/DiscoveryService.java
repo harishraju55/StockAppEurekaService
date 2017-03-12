@@ -12,6 +12,7 @@ public class DiscoveryService
 	{
 		System.setProperty("spring.config.name", "registration-server");
 		System.out.println("inside Disco-service and this from abhi");
+		System.out.println("Hi this is Pranav");
 		SpringApplication.run( DiscoveryService.class, args);
 	}
 
