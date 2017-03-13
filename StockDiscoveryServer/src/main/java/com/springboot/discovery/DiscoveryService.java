@@ -16,6 +16,8 @@ public class DiscoveryService
 		System.out.println("Hi this is Pranav");
 		System.out.println("Hi this is Pranav");
 		System.out.println("Hi this is harish");
+		System.out.println("Hi this is vayu");
+		
 		SpringApplication.run( DiscoveryService.class, args);
 	}
 
